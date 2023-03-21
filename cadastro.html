@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+</head>
+     <form action="ação a executar">
+        <fieldset>
+            <legend>cadastro de usuario</legend>
+            <br>
+            <label>nome</label>
+            <br>
+            <input type="text" id="inome" name="tnome" placeholder="Digite seu nome">
+            <br>
+            <label for="idatnasc">data de nascimento</label>
+            <br>
+            <input type="date" id="idatnasc" name="ddatanasc">
+            <br>
+            <label>email</label>
+            <br>
+            <input type="imail" id="e-mail" name="email" placeholder="seuemail@seulogin.com.br">    
+            <br>
+            <label>confirme email</label>
+            <br>
+            <input type="imail" id="e-mail" placeholder="confirmar email">
+            <br>
+            <label for="isexo">sexo</label>
+            <br>
+            <select name="ssexo" id="sexo">
+                <option value="M">masculino</option>
+                <option value="F">feminino</option>
+                <option value="A">agenero</option>
+            </select>
+            <br>
+            <label>tipo:</label>
+            <input type="radio" name="rtipo" id="itpusuario" value="U">
+            
+            <label for="itpusuario">usuario</label>
+
+            <input type="radio" name="rtipo" id="itpadmin" value="A">
+            <label for="itpadmin">admin</label>
+            <br>
+            <label for="ivoce">Fale sobre voce</label>
+            <br>
+            <textarea name="txtvoce" id="ivoce" cols="30"
+            rows="10"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+        
+     </form>
+<body>
+    
+</body>
+</html>
